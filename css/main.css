@@ -97,7 +97,59 @@ textarea {
 body{font-family:arial;font-size:14px; line-height:18px;background:#ECE9D8;}
 .template{width:960px;margin:0 auto;}
 .clear{overflow:hidden;}
+.headsection{height:110px; background:#414041}
+.title {
+	float: left;
+	width: 430px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
 
+.title h2 {
+	color: #EB7539;
+	font-size: 40px;
+}
+.extra{color:#fff;}
+.mainmenu {
+	float: right;
+	width: 500px;
+	margin-top: 50px;
+	color: #DA6427;
+}
+
+
+.mainmenu a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+.mainmenu a:hover, #active{color:#F4793D;}
+.mainsection{}
+.maintop{}
+.maintop h2{}
+.maintop h3{}
+.content{}
+.description{}
+.description p{}
+.midcontent{}
+
+.midleft{}
+.midleft h2{}
+.midleft p{}
+
+.midimage{}
+.midimage img{}
+
+.post{}
+.samearticle{}
+.samearticle h2{}
+.samearticle p{}
+.postlink{}
+.postlink a{}
+.footsection{}
+.footsection p{}
+.footsection a{}
+.footsection a:hover{}
 
 
 
