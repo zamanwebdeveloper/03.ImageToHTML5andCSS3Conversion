@@ -124,21 +124,67 @@ body{font-family:arial;font-size:14px; line-height:18px;background:#ECE9D8;}
 	font-weight: bold;
 }
 .mainmenu a:hover, #active{color:#F4793D;}
-.mainsection{}
-.maintop{}
-.maintop h2{}
-.maintop h3{}
-.content{}
-.description{}
-.description p{}
-.midcontent{}
+.mainsection{background:#fff;}
+.maintop {
+	margin: 25px 50px;
+	border-bottom: 2px dotted #ccc;
+}
+.maintop h2 {
+	font-size: 40px;
+	color: #333;
+}
+.maintop h3 {
+	font-size: 28px;
+	color: #C8C8C8;
+}
+.content {
+	margin: 0 50px;
 
-.midleft{}
-.midleft h2{}
-.midleft p{}
+}
+.description {
+	
+	text-align: center;
+}
 
-.midimage{}
-.midimage img{}
+.description p {
+	color: #666;
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 28px;
+}
+.midcontent{
+	height: 260px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f26722+1,f28a57+100 */
+background: #f26722; /* Old browsers */
+background: -moz-linear-gradient(left, #f26722 1%, #f28a57 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #f26722 1%,#f28a57 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #f26722 1%,#f28a57 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f26722', endColorstr='#f28a57',GradientType=1 ); /* IE6-9 */
+}
+
+.midleft {
+	float: left;
+	width: 370px;
+	margin-right: 35px;
+	text-align: center;
+	padding: 20px 40px;
+}
+.midleft h2 {
+	font-size: 30px;
+	border-bottom: 2px dotted #fff;
+	padding-bottom: 30px;
+	width: 250px;
+	margin-left: 55px;
+}
+.midleft p {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.midimage{float:left;width:300px;}
+.midimage img {
+	width: 300px;
+}
 
 .post{}
 .samearticle{}
